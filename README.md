@@ -12,6 +12,7 @@ https://wgld.org/
 - git push origin master
 
 # Tag标签
+https://git-scm.com/book/zh/v1/Git-%E5%9F%BA%E7%A1%80-%E6%89%93%E6%A0%87%E7%AD%BE
 ## 列出标签
 - git tag
 ## 创建附注标签 
