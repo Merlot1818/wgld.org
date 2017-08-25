@@ -2,12 +2,31 @@
 https://wgld.org/
 
 
-git init
-git add .
-git commit -m 'init'
-git remote add origin https://github.com/abopaper/wgld.org.git
-git pull origin master --allow-unrelated-histories
-git push origin master
+# Git 操作
+
+- git init
+- git add .
+- git commit -m 'init'
+- git remote add origin https://github.com/abopaper/wgld.org.git
+- git pull origin master --allow-unrelated-histories
+- git push origin master
+
+# Tag标签
+## 列出标签
+- git tag
+## 创建附注标签 
+- git tag -a v0.0.1 -m '[v0.0.1] - 2017-08-25'
+## 补打标签
+- git log --pretty=oneline
+- git tag -a v0.0.1 [commit_id] -m '[v0.0.1] - 2017-08-25'
+## 推送标签
+- git push origin v0.0.1
+- git push origin --tags
+## 检出标签
+- git checkout -b v0.0.1 
+## 查看指定版本
+- git tag -l 'v0.0.*'
+
 
 
 # 内容
